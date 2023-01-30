@@ -14,17 +14,17 @@ export default function LanguageButton ()
             <figure>
                 <ul>
                     <li>
-                        <button onClick={() => toggleLanguage('FR')}>
+                        <button type="button" onClick={() => toggleLanguage('FR')}>
                             <img src={logoFrance} alt=""/>
                         </button>
                     </li>
                     <li>
-                        <button onClick={() => toggleLanguage('EN')}>
+                        <button type="button" onClick={() => toggleLanguage('EN')}>
                             <img src={logoUK} alt=""/>
                         </button>
                     </li>
                     <li>
-                        <button onClick={() => toggleLanguage('ES')}>
+                        <button type="button" onClick={() => toggleLanguage('ES')}>
                             <img src={logoSpain} alt=""/>
                         </button>
                     </li>
