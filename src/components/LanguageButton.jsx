@@ -11,7 +11,6 @@ export default function LanguageButton ()
 
     return(
         <aside>
-            <figure>
                 <ul>
                     <li>
                         <button type="button" onClick={() => toggleLanguage('FR')}>
@@ -29,8 +28,6 @@ export default function LanguageButton ()
                         </button>
                     </li>
                 </ul>
-                
-            </figure>
         </aside>
     );
 };
