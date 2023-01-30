@@ -11,23 +11,23 @@ export default function LanguageButton ()
 
     return(
         <aside>
-                <ul>
-                    <li>
-                        <button type="button" onClick={() => toggleLanguage('FR')}>
-                            <img src={logoFrance} alt=""/>
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" onClick={() => toggleLanguage('EN')}>
-                            <img src={logoUK} alt=""/>
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" onClick={() => toggleLanguage('ES')}>
-                            <img src={logoSpain} alt=""/>
-                        </button>
-                    </li>
-                </ul>
+            <ul>
+                <li>
+                    <button type="button" onClick={() => toggleLanguage('FR')}>
+                        <img src={logoFrance} alt=""/>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" onClick={() => toggleLanguage('EN')}>
+                        <img src={logoUK} alt=""/>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" onClick={() => toggleLanguage('ES')}>
+                        <img src={logoSpain} alt=""/>
+                    </button>
+                </li>
+            </ul>
         </aside>
     );
 };
